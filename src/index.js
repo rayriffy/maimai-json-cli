@@ -148,7 +148,6 @@ addsong()
 async function addsong() {
   // Ask for questions
   let response = await prompts(questions)
-  console.log(response)
 
   console.log(`${chalk.black.bgCyan('WAIT')} Processing data...`)
   // Construct object
