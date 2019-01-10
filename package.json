@@ -29,6 +29,7 @@
     "start": "yarn run build && node build/index.js"
   },
   "dependencies": {
+    "chalk": "^2.4.2",
     "prompts": "^2.0.1"
   }
 }
